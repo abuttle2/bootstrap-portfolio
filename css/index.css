@@ -1,5 +1,12 @@
 /* Media queries to view how this scales across different screen sizes */
-
+.jumbotron
+{
+    /* position: relative; */
+    background-image: url(https://placehold.co/600x400);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 body::before
 {
