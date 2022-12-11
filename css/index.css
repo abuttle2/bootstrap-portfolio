@@ -22,9 +22,6 @@ body::before
     right: 0;
 }
 
-.body
-{}
-
 .box
 {
     background-color: lightblue;
