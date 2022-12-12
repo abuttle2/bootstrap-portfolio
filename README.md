@@ -10,7 +10,7 @@ A portfolio template which utilises Bootstrap 5 components for responsiveness, a
 
 ## License
 
-This project uses the MIT license.
+This project uses the MIT licence.
 
 ## Link
 
