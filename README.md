@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a portfolio which utilises Bootstrap 5 components for responsiveness, and custom CSS for overrides.
+A portfolio template which utilises Bootstrap 5 components for responsiveness, and custom CSS for overrides.
 
 ## Screenshots
 
@@ -14,3 +14,4 @@ This project uses the MIT license.
 
 ## Link
 
+https://abuttle2.github.io/bootstrap-portfolio/
