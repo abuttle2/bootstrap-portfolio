@@ -48,6 +48,16 @@
     display: flex;
 }
 
+.footer li
+{
+    transition: all 0.3s;
+}
+
+.footer li:hover
+{
+    box-shadow: 0 10px 6px -6px #777;
+}
+
 .card-body
 {
     display: flex;
