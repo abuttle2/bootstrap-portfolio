@@ -13,6 +13,10 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <!-- Fonts (Roboto)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
 </head>
@@ -47,7 +51,7 @@
     </nav>
 
     <!-- Hero -->
-    <div class="jumbotron" id="heroImage">
+    <figure class="jumbotron" id="heroImage">
         <div class="container">
             <div class="px-4 py-5 text-center">
                 <img class="d-block mx-auto mb-4" src="./images/avatar.png" alt="Alex Buttle" width="200" height="200"
@@ -65,7 +69,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </figure>
 
     <main>
         <!-- Main page content -->
@@ -113,29 +117,35 @@
                                     <h5 class="card-title">Horizeon</h5>
                                     <p class="card-text">This project is a refactor of the Horiseon website, which
                                         improves search engine optimization and accessibility.</p>
+                                    <!-- Link -->
+                                    <a href="https://abuttle2.github.io/horiseon-code-refactor/"
+                                        class="stretched-link"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card bg-light">
-                                <!-- TODO: Fix image scale and potentially move to use custom CSS -->
                                 <img src="./images/example-portfolio.png" class="card-img-top" alt="...">
                                 <div class="card-body border-top">
                                     <h5 class="card-title">Portfolio</h5>
                                     <p class="card-text">An example portfolio to explore the use of flexbox,
                                         CSS
                                         grids, and media queries.</p>
+                                    <!-- Link -->
+                                    <a href="https://abuttle2.github.io/portfolio/" class="stretched-link"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card bg-light">
-                                <img src="./images/horizeon.png" class="card-img-top" alt="...">
+                                <img src="./images/study-guide.png" class="card-img-top" alt="...">
                                 <div class="card-body border-top">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a
-                                        natural
-                                        lead-in to additional content.</p>
+                                    <h5 class="card-title">Prework Study Guide</h5>
+                                    <p class="card-text">This Study Guide was created to contain notes taken for HTML,
+                                        CSS, Git, and Javascript.</p>
+                                    <!-- Link -->
+                                    <a href="https://abuttle2.github.io/prework-study-guide/"
+                                        class="stretched-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -147,6 +157,8 @@
                                     <p class="card-text">This is a longer card with supporting text below as a
                                         natural
                                         lead-in to additional content. This content is a little bit longer.</p>
+                                    <!-- Link -->
+                                    <a href="#" class="stretched-link"></a>
                                 </div>
                             </div>
                         </div>
@@ -160,8 +172,12 @@
                     <h2>Skills</h2>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-10">
-                    <!-- Content-->
-                    <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, id.</div>
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">React</li>
+                    </ul>
                 </div>
             </div>
             <!-- Contact Me -->
@@ -178,16 +194,17 @@
         </div>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer-->
+    <!-- todo: Change to use custom icons for links -->
     <footer class="footer">
         <div class="container">
-            <div class="py-3 my-4 ">
+            <div class="py-3 my-4">
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lorem</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lorem</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lorem</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lorem</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lorem</a></li>
+                    <li class="nav-item"><a href="mailto:alexbuttle@hotmail.co.uk"
+                            class="nav-link px-2 text-muted">Email</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Github</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Twitter</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Spotify</a></li>
                 </ul>
             </div>
         </div>
